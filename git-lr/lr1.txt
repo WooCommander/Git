@@ -22,6 +22,8 @@ https://proglib.io/p/git-github-gitflow/
 3. 	Так как мы только что создали репозиторий, будем использовать вариант …or push an existing.
 	
 	git remote add origin https://github.com/WooCommander/test.git (вместо WooCommander будет ваше имя)
+	
+	переносим данные из локального репозитория в удаленный
 	git push -u origin master
 
 	После выполнения команд, можно через браузер убедиться что данные попали в удаленный репозиторий
@@ -31,9 +33,9 @@ https://proglib.io/p/git-github-gitflow/
 2. 	Внесем изменения в файл readme.md
 3.	Выполним следующие команды
 	
-	Добавим все изменения в репозиторий
+	Добавим все изменения в локальный репозиторий
 	git add .
-	Фиксируем изменения
+	Фиксируем изменения в локальном репозитории
 	git commit -m "New feature changes"
 	
 	Переключаемся на ветку master
